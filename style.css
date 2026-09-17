@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    place-items: center;
+    display: grid;
+    height: 100vh;
+    border: 2px solid white;
+}
+
+#head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1{
+    text-align: center;
+}
+
+.main-header{
+    color: blue;
+    font-size: 36px;
+
+}
+.main-paragraph{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.main-link{
+    color: green;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.sub-paragraph{
+    color: lightgray;
+    font-size: 14px;
+}
+.Paraboutpage{
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+}
