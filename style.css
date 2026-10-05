@@ -13,7 +13,20 @@ body{
     align-items: center;
 }
 
+
 #p1{
+    text-align: center;
+}
+
+#gif1{
+    float: left;
+}
+
+#gif2{
+    float: right;
+}
+
+#subhead1{
     text-align: center;
 }
 
@@ -21,6 +34,10 @@ body{
     color: blue;
     font-size: 36px;
 
+}
+.submain-header{
+    color: lightblue;
+    font-size: 24px;
 }
 .main-paragraph{
     color: white;
@@ -39,6 +56,10 @@ body{
 .Paraboutpage{
     color: white;
     font-size: 20px;
+}
+.headergif{
+    margin: 10px;
+    height: 150px;
 }
 a:hover{
     color: red;
