@@ -12,8 +12,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
 #p1{
     text-align: center;
 }
@@ -63,4 +61,54 @@ body{
 }
 a:hover{
     color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .main-header{
+        font-size: 20px;
+    }
+    .submain-header{
+        font-size: 16px;
+    }
+    .main-paragraph{
+        font-size: 12px;
+    }
+    .main-link{
+        font-size: 12px;
+    }
+    .sub-paragraph{
+        font-size: 8px;
+    }
+    body{
+        border: none;
+    }
+    #video{
+        width: 100%;
+    }
+}
+
+@media print {
+    body{
+        background-color: white;
+        color: black;
+        border: none;
+    }
+    .main-header, .submain-header, .main-paragraph, .sub-paragraph{
+        color: black;
+    }
+    .main-link{
+        color: blue;
+        text-decoration: underline;
+    }
+    #video, .headergif{
+        display: none;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body{
+        display: flex;
+        place-items: center;
+        flex-flow: column;
+        }
 }
